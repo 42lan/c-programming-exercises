@@ -42,7 +42,9 @@ int main(int argc, char *argv[]){
         }
 
         system("clear");
+        compteur = 0;
         do{
+            compteur++;
             printf("Quel est le nombre mystere?\n");
             printf("> ");
             scanf("%d", &nombreEntre);
@@ -52,7 +54,7 @@ int main(int argc, char *argv[]){
             else if(nombreEntre > nombreMystere)
                 printf("C'est plus petit\n\n");
             else
-                printf("Exactemen! Tu l'as trouvé!!!\n\n");
+                printf("Exactemen! Tu l'as trouvé en %d coups!!!\n\n", compteur);
         } while(nombreEntre != nombreMystere);
 
         printf("Tu veux rejouer?\n[0=non] [1=oui]\n");
