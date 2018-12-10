@@ -1,0 +1,18 @@
+# Object files
+*.o
+
+# Libraries
+*.a
+
+# Executable
+*.out
+fillit
+
+# Debug files
+*.dSYM
+
+# Swp files
+*.swp
+
+# Precompiled header
+*.h.gch
